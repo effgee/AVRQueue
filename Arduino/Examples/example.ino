@@ -1,4 +1,4 @@
-#include <Queue.h>
+#include <queue.h>
 
 void setup() {
     pinMode(13, OUTPUT);
@@ -20,3 +20,5 @@ int testFunction(unsigned long now)
     Serial.println(now);
 }
 
+void loop() {
+}
